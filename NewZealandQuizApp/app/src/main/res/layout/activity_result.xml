@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".Act.ResultActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/your_score"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#A4FFFFFF"
+            android:text="Your Score : "
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/pa"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:layout_gravity="center"
+            android:layout_margin="10sp"
+            android:layout_marginBottom="24dp"
+            android:background="#79DEE2D1"
+            android:padding="8dp"
+            android:text="Play Again"
+            android:textColor="#000"
+            android:textSize="30sp" />
+    </LinearLayout>
+</LinearLayout>

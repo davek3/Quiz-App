@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="30dp"
+            android:src="@drawable/quiztime"
+            tools:srcCompat="@drawable/main" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:background="#9FFFFFFF"
+            android:text="Welcome to quiz app"
+            android:textAlignment="center"
+            android:textColor="#BB2D2D"
+            android:textSize="45sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="243dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Quiz about New Zealand"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+        <android.support.v7.widget.CardView
+            app:cardElevation="10dp"
+            app:cardCornerRadius="25dp"
+            android:layout_margin="20sp"
+            android:layout_width="match_parent"
+            app:cardBackgroundColor="#808BC34A"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/startquize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:elevation="10dp"
+                android:text="Start Quiz"
+                android:textSize="24sp" />
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</LinearLayout>
